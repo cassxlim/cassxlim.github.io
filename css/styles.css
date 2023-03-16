@@ -300,9 +300,17 @@ input[type=submit]:hover {
     color: #191919;
 }
 
+.contact a {
+    color: #32615a;
+}
+
+.contact a:hover {
+    color: #b7d8d4;
+}
+
 /* footer */
 footer {
-    margin: 3rem auto;
+    margin: 5rem auto 3rem;
 }
 
 footer a {
@@ -311,10 +319,26 @@ footer a {
     text-align: center;
 }
 
+footer a:hover {
+    color: #32615a;
+}
+
 footer p {
     font-size: 1.6rem;
     text-align: center;
     padding-top: 1rem;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 0;
 }
 
 @media screen and (min-width: 1000px) {
@@ -478,4 +502,5 @@ footer p {
         margin-top: 5rem;
         min-width: 60rem;
     }
+    
 }
