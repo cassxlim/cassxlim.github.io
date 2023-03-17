@@ -218,6 +218,7 @@ figure {
     font-family: var(--body-text);
     font-size: 1.6rem;
     padding: 5rem;
+    padding-top: 3rem;
     letter-spacing: 0.16rem;
 }
 
@@ -241,7 +242,7 @@ figure {
 
 video {
     display: block;
-    margin: 5rem auto 0;
+    margin: 5rem auto;
 }
 
 /* form */
