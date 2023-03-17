@@ -24,6 +24,11 @@ h1 a {
     margin-right: 3rem;
 }
 
+h3 {
+    margin: 5rem 3rem;
+    font-size: 1.8rem;
+}
+
 /* header */
 
 .menu-icon span {
@@ -157,16 +162,39 @@ h2 {
 }
 
 .bio {
-    padding: 5rem 0;
+    padding-top: 5rem;
 }
 
-.bio p:first-child {
+.bio div p {
+    font-family: var(--body-text);
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
     font-size: 1.6rem;
-    padding-bottom: 3rem;
+}
+
+.bio div p:nth-child(2) {
+    margin-bottom: 5rem;
 }
 
 span {
     font-weight: 700;
+}
+
+.mypic {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.mypic img {
+    height: 15rem;
+    border-radius: 10rem;
+}
+
+.mypic p {
+    font-size: 1.6rem;
+    font-family: var(--body-text);
+    letter-spacing: 0.2rem;
 }
 
 /* content */
