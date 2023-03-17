@@ -167,10 +167,6 @@ h2 {
     font-size: 1.6rem;
 }
 
-.bio div p:nth-child(2) {
-    margin-bottom: 5rem;
-}
-
 span {
     font-weight: 700;
 }
@@ -182,6 +178,7 @@ span {
 
 .mypic {
     margin: 3rem;
+    margin-top: 6rem;
     display: flex;
     align-items: center;
 }
