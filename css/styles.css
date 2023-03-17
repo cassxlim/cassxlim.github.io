@@ -24,11 +24,6 @@ h1 a {
     margin-right: 3rem;
 }
 
-h3 {
-    margin: 5rem 3rem;
-    font-size: 1.8rem;
-}
-
 /* header */
 
 .menu-icon span {
@@ -178,6 +173,11 @@ h2 {
 
 span {
     font-weight: 700;
+}
+
+.bio h3 {
+    margin: 5rem 3rem;
+    font-size: 1.8rem;
 }
 
 .mypic {
