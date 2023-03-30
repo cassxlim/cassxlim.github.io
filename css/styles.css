@@ -498,6 +498,11 @@ footer p {
         margin-top: 0;
     }
 
+    .mural {
+        margin: 5rem auto;
+        flex-direction: column;
+    }
+
     /* form */
 
     .main-content .contact {
